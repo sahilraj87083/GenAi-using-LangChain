@@ -1,0 +1,20 @@
+{
+    "title" : "student",
+    "type": "object",
+    "properties":{
+        "name": {
+            "type": "string",
+            "description": "name of the student"
+        },
+        "age": {
+            "type": "integer",
+            "description": "age of the student"
+        },
+        "grade": {
+            "type": "string",
+            "description": "grade of the student",
+            "enum": ["A", "B", "C", "D", "E", "F"]
+        }
+    },
+    "required": ["name"]
+}
